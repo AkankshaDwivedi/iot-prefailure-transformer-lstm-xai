@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.venv/
+
+# macOS
+.DS_Store
+__MACOSX/
+
+# Data (download IoT-23 separately)
+data/
+
+# Large or temporary training files
+outputs/results/*_checkpoint.pt
