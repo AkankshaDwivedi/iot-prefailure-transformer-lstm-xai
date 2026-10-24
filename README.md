@@ -56,14 +56,14 @@ iot-prefailure-transformer-lstm-xai/
 │   │   ├── lstm_auto_encoder.py      # LSTM Autoencoder and k-fold training
 │   │   └── transformer_auto_encoder.py  # Transformer Autoencoder and k-fold training
 │   ├── train_final.py                # final models on the 70/30 split
-│   ├── pre_failure_score_v2.py       # score malware sequences
+│   ├── pre_failure_score.py       # score malware sequences
 │   ├── recalibrate_final.py          # thresholds from the final model's benign errors
 │   ├── finalize_metrics.py           # precision, recall, F1 and FPR
 │   ├── compute_roc_auc.py            # ROC AUC and ROC curve
 │   ├── explainability_shap.py        # SHAP feature importance
 │   ├── explainability_attention.py   # attention visualisation
 │   └── scan_scenarios.py, fast_prescan.py, sample_large_scenario.py,
-│       test_sequence_generation.py, pre_failure_score.py   # exploration helpers and an earlier version
+│       test_sequence_generation.py   # exploration helpers and an earlier version
 └── outputs/
     ├── figures/                      # ROC curve, SHAP chart, attention figures
     └── results/                      # metrics, scores, benign errors, final model weights

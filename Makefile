@@ -60,7 +60,7 @@ train-final:
 	$(PYTHON) src/train_final.py
 
 pre-failure-score-v2:
-	$(PYTHON) src/pre_failure_score_v2.py
+	$(PYTHON) src/pre_failure_score.py
 
 recalibrate-final:
 	$(PYTHON) src/recalibrate_final.py
