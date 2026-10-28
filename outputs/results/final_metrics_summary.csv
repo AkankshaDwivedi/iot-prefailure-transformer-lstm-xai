@@ -1,0 +1,6 @@
+Metric,LSTM Autoencoder,Transformer Autoencoder
+Precision,1.0,1.0
+Recall,0.0346,0.6501
+F1-score,0.0669,0.788
+FPR,0.0,0.0
+ROC-AUC,0.8731,0.9793
